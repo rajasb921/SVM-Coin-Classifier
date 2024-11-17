@@ -2,7 +2,6 @@
 This module cotains the code for training my computer vision model to classify coins based on their features.
 - I obtained training data by cropping out the coins from the given test case images, and saving their associated labels 
   in a seperate text file. I was able to obtain 144 training samples.
-- Training data I obtained can be found here (ADD GITHUB LINK)
 - The training data consisted of 250 by 250 square images of coins. I extracted important features such as the RGB values 
   and the coin radius. I used these features as inputs to my model. 
 - This model is a linear classifier that uses SVC to classify the data. Based on my own testing, I was able to obtain an 
